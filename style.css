@@ -3,6 +3,10 @@ body{
     background-color: #f3efe0;
 }
 
+h1{
+    text-align: center;
+}
+
 h2,
 h3 {
     background-color: #ff6201;
@@ -12,4 +16,24 @@ h3 {
 
 h3{
     background-color: #E57C04;
+}
+
+.recipes-list{
+    background-color:azure;
+}
+
+.recipes-list ul{
+    padding: 0px;
+    display: block;
+    width:fit-content;
+    margin: 20px auto;
+
+}
+
+
+
+.recipes-list li{
+    display: inline-block;
+    padding: 16px;
+    background-color:#ff6201;
 }
